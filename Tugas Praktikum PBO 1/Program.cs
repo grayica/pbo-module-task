@@ -7,20 +7,23 @@ public class Hewan
     public string Nama { get; set; }
     public int Umur { get; set; }
 
+    // Menggunakan this untuk kejelasan
     public Hewan(string nama, int umur)
     {
-        Nama = nama;
-        Umur = umur;
+        this.Nama = nama;
+        this.Umur = umur;
     }
 
+    // Parafrase pada teks yang dikembalikan oleh Suara()
     public virtual string Suara()
     {
-        return "Hewan ini bersuara";
+        return "Hewan ini memiliki suara";
     }
 
+    // Menambahkan sedikit variasi dalam format InfoHewan()
     public virtual string InfoHewan()
     {
-        return $"Nama: {Nama}, Umur: {Umur} tahun";
+        return $"Nama hewan: {Nama}, Umur: {Umur} tahun";
     }
 }
 
