@@ -138,10 +138,10 @@ public class Program
         KebunBinatang kebunBinatang = new KebunBinatang();
 
         // Membuat objek berbagai jenis hewan
-        Singa singa = new Singa("Simba", 5);
-        Gajah gajah = new Gajah("Dumbo", 10);
-        Ular ular = new Ular("Naga", 3, 2.5);
-        Buaya buaya = new Buaya("Kroko", 7, 3.2);
+        Singa singa = new Singa("Singa", 5);
+        Gajah gajah = new Gajah("Gajah", 10);
+        Ular ular = new Ular("Ular", 3, 2.5);
+        Buaya buaya = new Buaya("Buaya", 7, 3.2);
 
         // Menambahkan hewan ke kebun binatang
         kebunBinatang.TambahHewan(singa);
